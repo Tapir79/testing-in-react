@@ -1,7 +1,7 @@
 # Description 
 This project is a repository created to teach about unit testing a React/Redux app.  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![License][license-badge]](#license)
+[![License](https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square)](#license)
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/kentcdodds/testing-workshop/blob/master/other/CODE_OF_CONDUCT.md)
 
 Table of contents
