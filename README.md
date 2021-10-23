@@ -1,18 +1,46 @@
-# How to test a React app
+# Description 
+This project was created to teach about unit testing a React/Redux app.  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License](https://img.shields.io/badge/license-MIT-green)](#license)
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/kentcdodds/testing-workshop/blob/master/other/CODE_OF_CONDUCT.md)
 
-## First basic tests 
+Table of contents
+------------------
+- [What to test?](#what-to-test)
+- [How to test a React app](#how-to-test-a-react-app)
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+
+## What to test
+- Your application has parts: components, reducers and action creators
+- Think about each part 
+    - what does this part do? 
+    - Write a test that it actually does what you want it to do
+- In other words think about the workflows what each part is supposed to do and write a test for it 
+
+# Examples 
+## Component exists 
+1. A component exists inside another component 
+1. An element exists for each index when looping a list of objects
+
+## Submitting 
+1. Users can enter input into a text area and submit it
+1. Users can enter input into a text area, submit it and textarea should be empty
+
+
+## How to test a React app
+### First basic tests 
 - We want to assert that App div contains the text 
 - There are 2 ways to do this 
 - tests for App.js file is located on App.test.js 
 - npm test
 
-## What we get with create-react-app 
+### What we get with create-react-app 
 - React library 
 - Webpack that links JS files together
 - Babel that turns ES2015/ES2016/ES2017 and JSX into ES5 code 
 - Jest which is a testing env
 
-## Jest
+### Jest
 - npm test 
 - Jest starts up 
 - Jest finds all files that end with ``.test.js`` and executes them
@@ -20,11 +48,11 @@
 - if test files change they are run again
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -90,3 +118,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## LICENSE
+
+MIT License
+
+Copyright (c) 2021 Saara-Maija Pakarinen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
