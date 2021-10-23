@@ -1,3 +1,11 @@
+# How to test in React app
+
+## First basic tests 
+- We want to assert that App div contains the text 
+- There are 2 ways to do this 
+- tests for App.js file is located on App.test.js 
+- npm test
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
