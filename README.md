@@ -1,10 +1,24 @@
-# How to test in React app
+# How to test a React app
 
 ## First basic tests 
 - We want to assert that App div contains the text 
 - There are 2 ways to do this 
 - tests for App.js file is located on App.test.js 
 - npm test
+
+## What we get with create-react-app 
+- React library 
+- Webpack that links JS files together
+- Babel that turns ES2015/ES2016/ES2017 and JSX into ES5 code 
+- Jest which is a testing env
+
+## Jest
+- npm test 
+- Jest starts up 
+- Jest finds all files that end with ``.test.js`` and executes them
+- Results are printed to terminal
+- if test files change they are run again
+
 
 # Getting Started with Create React App
 
