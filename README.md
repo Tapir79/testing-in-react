@@ -46,6 +46,7 @@ Table of contents
 - Jest finds all files that end with ``.test.js`` and executes them
 - Results are printed to terminal
 - if test files change they are run again
+- ``q`` to quit
 
 
 ## Getting Started with Create React App
